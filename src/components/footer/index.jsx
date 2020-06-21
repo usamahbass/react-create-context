@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="mt-auto mt-5 py-3 text-dark bg-gray">
       <div className="container">
         <div className="row">
-          <div className="col mb-5">
+          <div className="col-lg-8 mb-5">
             <div className="d-flex justify-content-around">
               <ul className="list-group">
                 <li className="list-group-item">
@@ -214,7 +214,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col">
+          <div className="col-lg-4">
             <figure className="figure">
               <img
                 src={Shopping}
