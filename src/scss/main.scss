@@ -1,0 +1,19 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/animate.css/animate.css";
+
+@import "./abstracts/variables";
+@import "./abstracts/mediaquery";
+
+@import "./component/badge";
+@import "./component/button";
+@import "./component/card";
+@import "./component//list";
+@import "./component/input";
+@import "./component/navbar";
+@import "./component/search";
+@import "./component/spinnergrow";
+
+@import "./base/base";
+@import "./base/color";
+@import "./base/typhography";
+@import "./base/utillities";

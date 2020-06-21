@@ -1,0 +1,59 @@
+.card {
+  border-color: transparent;
+  transition: all 1s linear;
+
+  .card-header {
+    border-bottom: none;
+    transition: all 0.5s ease-in;
+  }
+
+  .card-footer {
+    background-color: transparent;
+    border-top: transparent;
+
+    .btn-custom-center {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      transition: opacity 0.35s ease;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+
+  &:hover {
+    .card-header {
+      cursor: pointer;
+      i {
+        color: $gold;
+        cursor: pointer;
+      }
+    }
+
+    .card-body {
+      filter: blur(10px);
+    }
+
+    .overlay {
+      display: block;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    .card-footer {
+      background: #ffffff;
+      border: none;
+
+      .btn-custom-center {
+        opacity: 1;
+
+        &:hover {
+          box-shadow: 0 0.5em 0.5em -0.4em $gold;
+        }
+      }
+    }
+  }
+}
